@@ -5,8 +5,8 @@ import (
 
 	"github.com/gofiber/fiber/v2"
 
-	database "turbo-g-template/server/configs"
-	routes "turbo-g-template/server/routes"
+	database "github.com/TuhinBar/turbo-g-template/apps/server/configs"
+	routes "github.com/TuhinBar/turbo-g-template/apps/server/routes"
 )
 
 

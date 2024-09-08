@@ -3,8 +3,9 @@ package services
 import (
 	"context"
 	"time"
-	database "turbo-g-template/server/configs"
-	"turbo-g-template/server/models"
+
+	database "github.com/TuhinBar/turbo-g-template/apps/server/configs"
+	"github.com/TuhinBar/turbo-g-template/apps/server/models"
 
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"

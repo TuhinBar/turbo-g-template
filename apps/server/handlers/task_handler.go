@@ -1,8 +1,9 @@
 package handlers
 
 import (
-	"turbo-g-template/server/models"
-	"turbo-g-template/server/services"
+	"github.com/TuhinBar/turbo-g-template/apps/server/services"
+
+	"github.com/TuhinBar/turbo-g-template/apps/server/models"
 
 	"github.com/gofiber/fiber/v2"
 )
@@ -26,4 +27,4 @@ func CreateTask(c *fiber.Ctx) error {
         return c.Status(fiber.StatusInternalServerError).JSON(fiber.Map{"error": err.Error()})
     }
     return c.Status(fiber.StatusCreated).JSON(createdTask)
-}
+} 

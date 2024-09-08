@@ -3,7 +3,7 @@ package routes
 import (
 	"github.com/gofiber/fiber/v2"
 
-	"turbo-g-template/server/handlers"
+	"github.com/TuhinBar/turbo-g-template/apps/server/handlers"
 )
 
 func SetupRoutes(app *fiber.App) {
