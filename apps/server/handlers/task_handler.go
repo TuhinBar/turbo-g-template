@@ -27,4 +27,4 @@ func CreateTask(c *fiber.Ctx) error {
         return c.Status(fiber.StatusInternalServerError).JSON(fiber.Map{"error": err.Error()})
     }
     return c.Status(fiber.StatusCreated).JSON(createdTask)
-} 
+}
